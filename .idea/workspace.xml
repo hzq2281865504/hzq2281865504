@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00095379-b2b8-4c1e-ae0f-0349fff7481b" name="Default Changelist" comment="layout布局">
+      <change afterPath="$PROJECT_DIR$/public/pic/zmd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pic/zmd2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/First/FirstView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/First/FirstView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,11 @@
     <property name="ts.external.directory.path" value="E:\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webstormProject2\hzq2281865504\public\pic" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -89,6 +101,8 @@
       <workItem from="1606884000782" duration="58000" />
       <workItem from="1606909805834" duration="7560000" />
       <workItem from="1607326138109" duration="12317000" />
+      <workItem from="1607495049661" duration="7478000" />
+      <workItem from="1608098994452" duration="7415000" />
     </task>
     <task id="LOCAL-00001" summary="layout布局">
       <created>1606884048348</created>
@@ -140,21 +154,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1025" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606913371924" />
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1607347570045">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1608099097706">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608099097706" />
     <state width="1269" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1607347570045" />
-    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1607347570044">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1608099097706">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608099097706" />
     <state width="1269" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1607347570044" />
-    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1607347570044">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1608099097706">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608099097706" />
     <state width="1269" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1607347570044" />
-    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1607347570044">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1608099097706">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608099097706" />
     <state width="1269" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1607347570044" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1606917736562">
       <screen x="0" y="0" width="2560" height="1400" />

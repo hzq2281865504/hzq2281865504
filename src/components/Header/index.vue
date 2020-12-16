@@ -1,12 +1,12 @@
 <template>
-  <div class="header" v-bind:class="{'header_show':isuse_headershow,'header_hide':isuse_headerhide}">
+  <div class="header" v-bind:class="{'header_show':isuse_headershow}">
     <img src="../../assets/logo.png" class="logo">
     <ul class="menu_list" v-on:mouseover="changeClass()" v-on:mouseout="backClass()">
       <li class="menu_item" v-on:mouseover="changeClass(1)" v-on:mouseout="backClass(1)">
         <a class="txt">第一</a>
         <ul class="item_ul" v-bind:class="{'item_ul_show':isuse_itemulshow1,'item_hide':isitem_hide1}"  v-on:mouseover="changeClass()" v-on:mouseout="backClass()">
-          <li>111</li>
-          <li>222</li>
+          <li><router-link to="/ListView">111</router-link></li>
+          <li><router-link to="/FirstView">222</router-link></li>
           <li>333</li>
         </ul>
       </li>
@@ -36,7 +36,6 @@ export default {
       isuse_itemulshow2:false,
       isitem_hide1:false,
       isitem_hide2:false,
-      isuse_headerhide:false,
       isuse_headershow:false,
       isuse_rightshow:false
     }
@@ -55,7 +54,6 @@ export default {
       this.isuse_rightshow = true;
     },
     backClass(x){
-      this.isuse_headerhide = true;
       if (x==1){
         this.isuse_itemulshow1 = false;
         this.isitem_hide1 = true;
@@ -64,10 +62,6 @@ export default {
         this.isuse_itemulshow2 = false;
         this.isitem_hide2 = true;
       }
-      let that = this;
-      setTimeout(function () {
-        that.isuse_headerhide = false;
-      },150);
       this.isuse_headershow = false;
       this.isuse_rightshow = false;
     }
@@ -77,12 +71,17 @@ export default {
 
 <style scoped>
 .header{
+  z-index: 2;
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   background-color: #fff;
   height: 70px;
+  transition: height 300ms;
+  -moz-transition: height 300ms; /* Firefox 4 */
+  -webkit-transition: height 300ms; /* Safari 和 Chrome */
+  -o-transition: height 300ms; /* Opera */
 }
 .header_show{
   position: absolute;
@@ -98,23 +97,9 @@ export default {
   -moz-transition: height 300ms; /* Firefox 4 */
   -webkit-transition: height 300ms; /* Safari 和 Chrome */
   -o-transition: height 300ms; /* Opera */
-  pointer-events:none;
 }
 .header_show:hover{
-  height: 570px;
-}
-.header_hide{
-  -webkit-animation:header_hide 0.15s ease-out both;
-  pointer-events:none;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: #fff;
-  display: flex;
-  height: 570px;
-  justify-content: space-around;
-  align-items: flex-start;
+  height: 470px;
 }
 .header .logo{
   position: absolute;
@@ -126,7 +111,7 @@ export default {
 .menu_list{
   position: absolute;
   top: -9px;
-  left: 25%;
+  left: 30%;
   display: block;
   opacity: 1;
 }
@@ -144,6 +129,7 @@ ul,li{
   list-style: none;
 }
 .header_right{
+  font-style: oblique;
   position: absolute;
   left: 85%;
 }
@@ -198,6 +184,10 @@ ul,li{
 .txt:hover:after{
   transform: scale(1,1);
   opacity: 1;
+}
+
+a{
+  color: #5de9ff;
 }
 
 @keyframes a_item_show{
